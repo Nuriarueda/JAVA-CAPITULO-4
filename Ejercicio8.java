@@ -33,5 +33,6 @@ public class Ejercicio8 {
             System.out.printf("Tu media es de %.2f", media + " has sacado un sobresaliente");
         } 
         sc.close();
+        
     }
 }
