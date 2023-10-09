@@ -17,84 +17,84 @@ public class Ejercicio10 {
                 if (dia >= 20){
                     System.out.println("Eres acuario");
                 } else if (dia <= 19){
-                    System.out.println("Eres piscis");
+                    System.out.println("Eres capricornio");
                 }
                 break;
             
             case "Febrero":
                 if (dia >= 19){
                     System.out.println("Eres piscis");
-                } else if (dia <= 21){
-                    System.out.println("Eres aries");
+                } else if (dia <= 18){
+                    System.out.println("Eres acuario");
                 }
                 break;
             case "Marzo":
                 if (dia >= 21){
                     System.out.println("Eres aries");
-                } else if (dia <= 20){
-                    System.out.println("Eres tauro");
+                } else if (dia <= 18){
+                    System.out.println("Eres piscis");
                 }
                 break;
             case "Abril":
                 if (dia >= 20){
                     System.out.println("Eres tauro");
-                } else if (dia <= 21){
-                    System.out.println("Eres geminis");
+                } else if (dia <= 19){
+                    System.out.println("Eres aries");
                 }
                 break;
             case "Mayo":
                 if (dia >= 21){
                     System.out.println("Eres geminis");
-                } else if (dia <= 21){
-                    System.out.println("Eres cáncer");
+                } else if (dia <= 19){
+                    System.out.println("Eres tauro");
                 }
                 break;
             case "Junio":
                 if (dia >= 21){
                     System.out.println("Eres cáncer");
                 } else if (dia <= 23){
-                    System.out.println("Eres leo");
+                    System.out.println("Eres geminis");
                 }
                 break;
             case "Julio":
                 if (dia >= 23){
                     System.out.println("Eres leo");
                 } else if (dia <= 23){
-                    System.out.println("Eres virgo");
+                    System.out.println("Eres cáncer");
                 }
                 break;
             case "Agosto":
                 if (dia >= 23){
                     System.out.println("Eres virgo");
-                } else if (dia <= 23){
-                    System.out.println("Eres libra");
+                } else if (dia <= 22){
+                    System.out.println("Eres leo");
                 }
                 break;
             case "Septiembre":
                 if (dia >= 23){
                     System.out.println("Eres libra");
-                } else if (dia <= 23){
-                    System.out.println("Eres escorpio");
+                } else if (dia <= 22){
+                    System.out.println("Eres virgo");
                 }
                 break;
             case "Octubre":
                 if (dia >= 23){
                     System.out.println("Eres escorpio");
                 } else if (dia <= 22){
-                    System.out.println("Eres sagitario");
+                    System.out.println("Eres libra");
                 }
                 break;
             case "Noviembre":
                 if (dia >= 22){
                     System.out.println("Eres sagitario");
-                } else if (dia <= 22){
-                    System.out.println("Eres capricornio");
+                } else if (dia <= 21){
+                    System.out.println("Eres escorpio");
                 }
                 break;
             case "Diciembre":
                 if (dia >= 22){
                     System.out.println("Eres capricornio");
-                } else if (dia <= 20){
+                } else if (dia <= 19){
                     System.out.println("Eres acuario");
                 }
                 break;
