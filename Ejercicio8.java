@@ -18,19 +18,19 @@ public class Ejercicio8 {
         double media = ((nota1+nota2+nota3)/3);
 
         if (media <5){
-            System.out.printf("Tu media es de %.2f", media + " has sacado un insuficiente");
+            System.out.printf("Tu media es de %.2f has sacado un insuficiente", media);
         } 
         if ( media == 5){
-            System.out.printf("Tu media es de %.2f", media + " has sacado un suficiente");
+            System.out.printf("Tu media es de %.2f has sacado un suficiente", media);
         } 
         if (media == 6){
-            System.out.printf("Tu media es de %.2f", media + " has sacado un bien");
+            System.out.printf("Tu media es de %.2f has sacado un bien", media);
         } 
         if (media == 7 && media == 8 ){
-            System.out.printf("Tu media es de %.2f", media + " has sacado un notable");
+            System.out.printf("Tu media es de %.2f has sacado un notable", media);
         } 
         if (media == 9 && media == 10){
-            System.out.printf("Tu media es de %.2f", media + " has sacado un sobresaliente");
+            System.out.printf("Tu media es de %.2f has sacado un sobresaliente", media );
         } 
         sc.close();
         
