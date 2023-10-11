@@ -10,9 +10,12 @@ public class Ejercicio12 {
         int puntos = 0;
 
         System.out.println("TEST DAM");
-        
 
-        
+        System.out.println("Que toca el lunes a primera:");
+        System.out.println("a)Sistemas informáticos");
+        System.out.println("b)Programación");
+        System.out.println("C)Lenguaje de Marcas");
+        System.out.print("Elige una opcion: ");
         sc.close();
     }
 }
