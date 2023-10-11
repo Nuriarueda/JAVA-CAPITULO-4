@@ -35,10 +35,10 @@ public class EJERCICIOEXAMEN {
 
         //TABLA 
         System.out.println("*****************************************************************************************");
-        System.out.printf("%-25s|%-25s|%-8s|%-10s|%-8s|%-7s|\n", "NOMBRE", "APELLIDOS", "EDAD", "ALTURA", "PESO", "IMC");
+        System.out.printf("%-20s|%-23s|%-8s|%-10s|%-8s|%-7s|\n", "NOMBRE", "APELLIDOS", "EDAD", "ALTURA", "PESO", "IMC");
         System.out.println("*****************************************************************************************");
-        System.out.printf("%-25s|%-25s|%-8d|%-10.2f|%-8.2f|%-7.2f|\n", nombre1, apellido1, edad1, altura1, peso1, imc1 );
-        System.out.printf("%-25s|%-25s|%-8d|%-10.2f|%-8.2f|%-7.2f|\n", nombre2, apellido2, edad2, altura2, peso2, imc2 );
+        System.out.printf("%-20s|%-23s|%-8d|%-10.2f|%-8.2f|%-7.2f|\n", nombre1, apellido1, edad1, altura1, peso1, imc1 );
+        System.out.printf("%-20s|%-23s|%-8d|%-10.2f|%-8.2f|%-7.2f|\n", nombre2, apellido2, edad2, altura2, peso2, imc2 );
 
         System.out.println("");
         if (imc1>imc2){
