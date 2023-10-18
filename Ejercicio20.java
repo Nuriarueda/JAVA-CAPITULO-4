@@ -11,6 +11,29 @@ import java.util.Scanner;
 public class Ejercicio20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
+
+        System.out.print("Introduce tu primera nota: ");
+        float nota1 = Float.parseFloat(sc.nextLine());
+
+        System.out.print("Introduce tu segunda nota: ");
+        float nota2 = Float.parseFloat(sc.nextLine());
+
+        float media = 0;
+        media = (nota1 + nota2)/2;
+
+        System.out.println("Tu nota media es de " + media);
+
+        if (media<5) {
+            System.out.print("¿Cuál ha sido el resultado de la recuperación (apto/no apto): ");
+            String recuperacion = sc.nextLine();
+
+            if (recuperacion.equals("apto")) {
+                System.out.println("Tienes un 5 de media");
+            } else {
+                System.out.println("Tienes un " + media + " de media");
+            }
+        }
+        
         sc.close();
     }
 }
